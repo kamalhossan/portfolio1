@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="This is my Practice Website-1">
+	<meta name="Keyword" content="Kamal Hossan, Practice File, Web Devoloper">
+	<meta name="author" content="Kamal Hossan, Web Devoloper">
+	<title>Kamal Hossan Practice Website-1</title>
+	
+	<script language="javascript" type="text/javascript">
+	function clearText(field)
+	{
+		if (field.defaultValue == field.value) field.value = '';
+		else if (field.value == '') field.value = field.defaultValue;
+	}
+	</script>
+
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	$(window).load(function() {
+		$('#slider').nivoSlider({
+			effect:'random',
+			slices:10,
+			animSpeed:500,
+			pauseTime:2200,
+			startSlide:0, //Set starting Slide (0 index)
+			directionNav:false,
+			directionNavHide:false, //Only show on hover
+			controlNav:false, //1,2,3...
+			controlNavThumbs:false, //Use thumbnails for Control Nav
+			pauseOnHover:true, //Stop animation while hovering
+			manualAdvance:false, //Force manual transitions
+			captionOpacity:0.8, //Universal caption opacity
+			beforeChange: function(){},
+			afterChange: function(){},
+			slideshowEnd: function(){} //Triggers after all slides have been shown
+		});
+	});
+	</script>
+</head>
+<body>
+
+	<div class="headersection templete clear">
+		<div class="logo clear">
+			<img src="images/logo.png" alt="logo"/>
+			<h2>Kamal Hossan</h2>
+			<p>This is my first HTML5 Practice Website </p>
+		</div>
+		<div class="social clear">
+			<a href="https://www.facebook.com/kamal.hossan43" target="_blank"> <img src="Images/social/facebook.png" alt="facebook"/> </a>
+			<a href="http://twitter.com/shimanto54" target="_blank"> <img src="Images/social/twitter.png" alt="Twitter"/> </a>
+			<a href="https://plus.google.com/u/0/+KamalHossan43?tab=wX" target="_blank"> <img src="Images/social/googleplus.png" alt="Google Plus"/> </a>
+			<a href="https://www.linkedin.com/in/kamal-hossan43/" target="_blank"> <img src="Images/social/linkedin.png" alt="Linkedin"/> </a>
+		</div>
+	</div>
+	<div class="navsection templete">
+		<ul>
+			<li> <a id="active" href="index.html">Home</a></li>	
+			<li> <a href="#">Freelancer Profile</a>
+				<ul>
+					<li> <a href="#"></a>Freelancer.com</li>
+					<li> <a href="#"></a>Upwork.com</li>
+					<li> <a href="#"></a>Peopleperhour.com</li>
+					<li> <a href="#"></a>Truelancer.com</li>
+				</ul>
+			</li>	
+			<li> <a href="#">Portfolio</a></li>	
+			<li> <a href="about.html">About</a></li>	
+			<li> <a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div class="slidersection templete clear">
+		<div id="slider">
+            <a href="#"><img src="images/slideshow/01.jpg" alt="nature 1" title="This is slider one title or description"/></a>
+            <a href="#"><img src="images/slideshow/02.jpg" alt="nature 2" title="This is slider Two title or description" /></a>
+            <a href="#"><img src="images/slideshow/03.jpg" alt="nature 3" title="This is slider Three title or description" /></a>
+            <a href="#"><img src="images/slideshow/04.jpg" alt="nature 4" title="This is slider Four title or description" /></a>
+        </div>
+	</div>
+	<div class="contentsection contemplete clear">
+			<div class="maincontent clear">
+				<div class="samepost clear">
+						<h2>Out post title here</h2>
+						<img src="images/images.png" alt="post image"/>
+						<p>Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						</p>
+					<div class="readmore clear"> <a href="post.html">Read more</a></div>
+				</div>	
+				<div class="samepost clear">
+						<h2>Out post title here</h2>
+						<img src="images/bird.jpg" alt="post image"/>
+						<p>Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						</p>
+					<div class="readmore clear"> <a href="post.html">Read more</a></div>
+				</div>
+				<div class="samepost clear">
+						<h2>Out post title here</h2>
+						<img src="images/butterfly.jpg" alt="post image"/>
+						<p>Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						</p>
+					<div class="readmore clear"> <a href="post.html">Read more</a></div>
+				</div>
+					<div class="samepost clear">
+						<h2>Out post title here</h2>
+						<img src="images/marvel.jpg" alt="post image"/>
+						<p>Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						Main Content Text. Main Content Text. Main Content Text. Main Content Text. 
+						</p>
+						<div class="readmore clear"> <a href="post.html">Read more</a>
+					</div>
+				</div>		
+			</div>
+		<div class="sidebar clear">
+			<div class="samesiderbar clear">
+			<h2>Latest Article</h2>
+				<ul>
+					<li> <a href="#">Post Title One will be go here</a></li>	
+					<li> <a href="#">Post Title Two will be go here</a></li>	
+					<li> <a href="#">Post Title Three will be go here</a></li>	
+					<li> <a href="#">Post Title Four will be go here</a></li>	
+					<li> <a href="#">Post Title Five will be go here</a></li>	
+					<li> <a href="#">Post Title Six will be go here</a></li>	
+				</ul>
+				
+			</div>
+			<div class="samesiderbar clear">
+				<h2>Populer Article</h2>
+					<div class="populer clear">
+						<h3><a href="">Post Title will be go here</a></h3>
+						<img src="images/images.png" alt="post image"/>
+						<p>Sidebar Content Text. Sidebar Content Text. Sidebar Content Text. Sidebar Content Text. 
+					</div>
+					
+					<div class="populer clear">
+						<h3><a href="">Post Title will be go here</a></h3>
+						<img src="images/bird.jpg" alt="post image"/>
+						<p>Sidebar Content Text. Sidebar Content Text. Sidebar Content Text. Sidebar Content Text. 
+					</div>
+					
+					<div class="populer clear">
+						<h3><a href="">Post Title will be go here</a></h3>
+						<img src="images/butterfly.jpg" alt="post image"/>
+						<p>Sidebar Content Text. Sidebar Content Text. Sidebar Content Text. Sidebar Content Text. 
+					</div>
+					
+					<div class="populer clear">
+						<h3><a href="">Post Title will be go here</a></h3>
+						<img src="images/marvel.jpg" alt="post image"/>
+						<p>Sidebar Content Text. Sidebar Content Text. Sidebar Content Text. Sidebar Content Text. 
+					</div>
+			</div>
+		</div>
+	</div>
+		<div class="footersection templete clear">
+			<div class="footermenu clear">
+				<ul>
+				<li> <a href="index.html">Home</a></li>	
+				<li> <a href="about.html">About</a></li>	
+				<li> <a href="contact.html">Contact</a></li>	
+				</ul>
+			</div>
+		<p>&copy; Kamal Hossan Practice File</p>
+		</div>
+		<div class="fixedicon clear">
+			<a href="https://www.facebook.com/kamal.hossan43"><img src="images/social/fb.png" alt="Facebook"/></a>
+			<a href="http://twitter.com/shimanto54"><img src="images/social/tw.png" alt="Twitter"/></a>
+			<a href="https://plus.google.com/u/0/+KamalHossan43?tab=wX"><img src="images/social/gl.png" alt="Google Plus"/></a>
+			<a href="https://www.linkedin.com/in/kamal-hossan43/"><img src="images/social/Ln.png" alt="Linkedin"/></a>
+			<a href="http://youtube.com/discoveryourmind"><img src="images/social/yb.png" alt="Youtube"/></a>
+		</div>
+
+
+<script type="text/javascript">
+var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow7.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-xxxxxxxxx-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

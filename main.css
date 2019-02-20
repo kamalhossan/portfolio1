@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+* {margin:0; padding:0; outline:0;}
+body {font-family: 'Libre Franklin', sans-serif; font-size:14px; line-height:18px; color:#000; background:url(Images/background.png) repeat fixed 0 0 #fff;}
+
+.templete{width:960px; margin:0 auto;}
+.clear {overflow:hidden}
+input[type="text"],input[type="email"]{
+	width:300px;
+	padding:5px;	
+	margin:5px;
+	border: 1px solid #ddd;
+}
+textarea {
+    width: 300px;
+    padding: 5px;
+    height: 110px;
+	margin:5px;
+}
+input[type="submit"] {
+	border:1px solid #000;
+	color: white;
+	padding: 1px 10px;
+	background: blue;
+	font-size: 20px;
+	cursor: pointer;
+}
+input[type="submit"]:hover {background:#DF0; color:white}
+.headersection {background:#ba7031; color:#fff}
+.logo {width:550px; float:left}
+.logo img{
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+.logo h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.logo p {}
+.social {
+    width: 260px;
+    float: right;
+    padding-top: 25px;
+}
+.social img {
+    width: 60px;
+}
+.navsection {
+	background:none repeat 0 0 #E59009;
+	min-height:38px;
+	}
+.navsection ul {margin:0; padding:0; list-style:none}
+.navsection ul li{
+	float:left; 
+	border-left: 1.2px solid #BA7048; 
+	border-right: 1px solid #BA7022; 
+	display:inline-block;
+	position:relative;
+}
+.navsection ul li:first-child {border-left: 0px solid #BA7048}
+.navsection ul li:last-child {border-right: 0px solid #BA7022}
+.navsection ul li a {
+    text-decoration: none;
+	color:#fff;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+ }
+.navsection ul li a:hover {background:#e8922f; color:#fff}
+#active {background:#fff; color:#28390f}
+.navsection ul li ul{
+	position:absolute;
+	left:100px;
+	display: none;
+
+}
+.navsection ul li ul li {}
+.navsection ul li ul li a{}
+.slidersection {
+    
+ }	
+.navsection ul li:hover ul{left:5px}
+.contentsection {background:#fff}
+.contemplete {
+	width:928px;
+	margin:0 auto;
+	border:1px solid #007479;
+	padding: 15px;
+}
+.maincontent {
+    width: 620px;
+    background: #ecdcc4;
+    float: left;
+    padding: 10px 7px;
+    margin: 0;
+    margin-left: 0;
+    border: 1px solid #2b14c5;
+}
+.about {}
+.about img {float:left;padding: 5px;background: #fef;margin-right: 9px;border: 1px solid #fff;}
+.about p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 23px;
+}
+.relatedpost {}
+.relatedpost h2 {
+	background: azure;
+	padding: 10px;
+	border-bottom: 1px solid;
+	font-size: 26px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #007479;
+	color: #314463;
+}
+.relatedpost img{
+    width: 192px;
+    height: 107px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background: #FFFF;
+    border: 1px solid #fff;
+}
+.relatedpost img:hover{opacity:0.4}
+.samepost {}
+.samepost p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+.readmore {
+    float: right;
+    margin-top: 10px;
+}
+.readmore a {
+    display: block;
+    padding: 5px 10px;
+    background: #ffff;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #9b999a;
+    border-radius: 12px;
+}
+
+.readmore a:hover {color:#0A4898;} 
+.samepost h2, .about h2{
+    background: #e5c591;
+    padding: 10px;
+    border-bottom: 1px solid;
+    font-size: 26px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #785010;
+    color: #314463;
+}
+.samepost img {
+    width: 188px;
+	height: 120px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid;
+}
+.sidebar {width:255px; float:right; background:#ecdcc4; padding:10px; margin-top:0px; margin-bottom:15px; border: 1px solid #2b14c5;}
+.samesiderbar {
+    margin-bottom: 10px;
+}
+.samesiderbar ul {padding:0; margin:0}
+.samesiderbar ul li {
+    font-size: 16px;
+    padding: 5px 8px;
+    padding-left: 0;
+    border-bottom: 1px solid #007479;
+}
+.samesiderbar ul li:last-child {border-bottom: 0px solid #fff;}
+.samesiderbar ul li a {text-decoration:none;color: #0b1ae4;}
+.samesiderbar ul li a:hover {color:red}
+.samesiderbar h2 {
+    padding: 10px;
+    color: #314463;
+    background: #e5c591;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #785010;
+}
+
+.samesiderbar p {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffe;
+}
+.populer {}
+.populer h3{
+    height: 20px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #007479;
+}
+.populer h3 a{text-decoration:none; color:#314464;}
+.populer img{
+    width: 70px;
+    height: 50px;
+    float: left;
+    padding: 3px;
+    background: #18d843;
+    margin-right: 10px;
+    border: 1px solid #ffff;
+    border-radius: 39px;
+}
+.populer p{}
+.footersection {background:#BDBCAE; height:90px; text-align:center}
+.footermenu {margin-top:25px;
+	margin-bottom:5px;
+}
+.footermenu ul {padding:0; margin:0; list-style:none; text-align:center}
+.footermenu ul li {display:inline-block}
+.footermenu ul li a {
+    color: #2c03ff;
+    font-size: 18px;
+    margin-right: 10px;}
+.footersection p {}
+.fixedicon {position:fixed; left:20px; top:180px; width:60px;}
+.fixedicon img {
+	width:50px;
+}
